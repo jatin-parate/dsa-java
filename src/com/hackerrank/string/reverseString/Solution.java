@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Solution {
 
-	private static String reverseString(String line) {
+	private static String reverseString(String line) { 
 		char[] outputArr = new char[line.length()];
 
 		for (int i = line.length() - 1; i >= 0; i--) {
